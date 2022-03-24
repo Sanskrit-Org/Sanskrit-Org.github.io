@@ -1,0 +1,198 @@
+.wo_feature_sec
+{
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hsec-4
+{
+    height: 40vh;
+}
+
+.hsec-1
+{
+    height: 10vh;
+}
+
+.hsec-7
+{
+    height: 70vh;
+}
+
+.hsec-8
+{
+    height: 80vh;
+}
+
+.wo_feature_sec.feature1
+{
+    background: linear-gradient(30deg, rgb(71, 30, 2), rgb(26, 22, 0));
+}
+
+.wo_feature_sec.feature3
+{
+    background: linear-gradient(30deg, rgb(71, 49, 2), rgb(26, 0, 0));
+}
+
+.wo_feature_sec > .wo_inner_feature
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.wo_feature_sec > .wo_inner_feature.horiz_col_end
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.wo_feature_sec > .wo_inner_feature.horiz_col_left
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.wo_feature_sec > .wo_inner_feature.horiz_col_mid
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wo_feature_sec > .wo_inner_feature.t-right
+{
+    text-align: right;
+}
+
+.wo_feature_sec > .wo_inner_feature.t-center
+{
+    text-align: center;
+}
+
+
+.wo_feature_sec > .wo_inner_feature > .mid_side
+{
+    position: relative;
+    top: 50%;
+    color: #ffffff;
+    transform: translateY(-50%);
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.wo_feature_sec > .wo_inner_feature > .end_side
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) translateX(-30%);
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.wo_feature_sec > .wo_inner_feature > .end_side > .motto_ > h2
+{
+    color: #ffffffb0;
+}
+
+.wo_feature_sec > .wo_inner_feature > .end_side > .motto_ > h1
+{
+    color: #ffffff;
+}
+
+.wo_feature_sec > .wo_inner_feature > .end_side > .motto_ > h1::after
+{
+    content: '';
+    display: block;
+    width: 210px;
+    height: 3px;
+    background-color: #d07d00;
+    border-radius: 8px;
+}
+
+
+
+
+
+.wo_feature_sec.feature2
+{
+    background: linear-gradient(30deg, rgb(248, 250, 255), rgb(255, 255, 255));
+}
+
+
+
+
+.wo_feature_sec > .wo_inner_feature > .left_side
+{
+    padding: 0 50px;
+    position: relative;
+    top: 10%;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+.wo_feature_sec > .wo_inner_feature .wo_showcase
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.wo_feature_sec > .wo_inner_feature .wo_showcase > .wo_showcase_item
+{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #eeeeee;
+    margin-right: 30px;
+    border-radius: 12px;
+    padding: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.wo_feature_sec > .wo_inner_feature .wo_showcase > .wo_showcase_item:hover
+{
+    background-color: #4b2d003b;
+}
+
+.wo_feature_sec > .wo_inner_feature .wo_showcase > .wo_showcase_item:last-child
+{
+    margin-right: 0;
+}
+
+.wo_feature_sec > .wo_inner_feature .wo_showcase > .wo_showcase_item > span
+{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.wo_feature_sec > .wo_inner_feature .wo_showcase > .wo_showcase_item > p
+{
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.wo_feature_sec > .wo_inner_feature h3.link_big > a
+{
+    color: #d0a000;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.wo_feature_sec > .wo_inner_feature h3.link_big > a:hover
+{
+    opacity: 0.6;
+}

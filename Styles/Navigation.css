@@ -1,0 +1,145 @@
+#wo_navigator
+{
+    width: max-content;
+    background: #f7f7f7;
+    border-radius: 25px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    padding: 8px 25px;
+    z-index: 99999999999999999999;
+}
+
+
+/* Hummburger */
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_humburger
+{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_humburger:hover
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_humburger:active
+{
+    border-radius: 80px;
+    margin: 12px;
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_humburger > div
+{
+    width: 100%;
+    height: 2px;
+    background: #d07600;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_humburger > div:first-child
+{
+    width: 20px;
+    margin-bottom: 8px;
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_humburger > div:last-child
+{
+    margin-top: 8px;
+}
+
+
+
+/* LINKS WRAPPER */
+
+.wo_col > .inner_wo > #wo_links_wrapper
+{
+    width: max-content;
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+
+.wo_col > .inner_wo > #wo_links_wrapper > .inner_wo > ul
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.wo_col > .inner_wo > #wo_links_wrapper > .inner_wo > ul > li
+{
+    width: 100%;
+    height: 100%;
+    margin-right: 25px;
+}
+
+
+.wo_col > .inner_wo > #wo_links_wrapper > .inner_wo > ul > li > a
+{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.wo_col > .inner_wo > #wo_links_wrapper > .inner_wo > ul > li > a:hover
+{
+    background-color: #d07600;
+    color: #ffffff;
+}
+
+
+.wo_col > .inner_wo > #wo_links_wrapper > .inner_wo > ul > li > a > span
+{
+    width: max-content;
+    font-size: 16px;
+}
+
+.wo_col > .inner_wo > #wo_links_wrapper > .inner_wo > ul > li > a > i
+{
+    display: block;
+}
+
+
+/* BRAND */
+
+.wo_col > .inner_wo > .wo_section > .inner_wo
+{
+    margin-left: 12px;
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_brand_wrapper
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_brand_wrapper > img
+{
+    max-height: 70px;
+}
+
+.wo_col > .inner_wo > .wo_section > .inner_wo > #wo_brand_wrapper > h1
+{
+    color: #000000;
+}
